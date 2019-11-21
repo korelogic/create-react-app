@@ -6,6 +6,8 @@
  */
 
 'use strict';
+require('core-js');
+require('react-app-polyfill/ie9');
 
 // This alternative WebpackDevServer combines the functionality of:
 // https://github.com/webpack/webpack-dev-server/blob/webpack-1/client/index.js
